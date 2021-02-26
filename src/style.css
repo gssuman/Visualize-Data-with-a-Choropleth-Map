@@ -1,0 +1,55 @@
+body {
+	font-family: monospace;
+	color: #fff;
+	overflow-x: hidden
+}
+
+#container {
+	width: 100%;
+	align-self: center;
+	position: relative
+}
+
+header {
+	width: 100%;
+	background: #1abc9c;
+	padding: 20px
+}
+
+#title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	font-weight: 700
+}
+
+#description {
+	text-align: center;
+	font-size: 1rem;
+	text-align: center
+}
+
+#tooltip {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	padding: 5px;
+	font: 12px;
+	background: #000;
+	font-weight: 700;
+	pointer-events: none
+}
+
+a {
+	text-decoration: none
+}
+
+svg {
+	margin: 50px 0;
+	margin-left: 50%;
+	transform: translateX(-50%)
+}
